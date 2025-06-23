@@ -23,5 +23,4 @@ def decode_image_from_audio(stego_audio, output_image):
 
     print("✅ Image successfully extracted from audio.")
 
-# Contoh pemakaian
-decode_image_from_audio('input.wav', 'recovered1.png')
+decode_image_from_audio('output_stego.wav', 'recovered.png')
